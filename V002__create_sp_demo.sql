@@ -7,6 +7,6 @@ BEGIN
     SELECT cp.name, cp.email
     from Companies cp
     join Customers ct on cp.id = ct.company
-    where ct.id = pid
+    where ct.id = pid;
 END
 $$;
