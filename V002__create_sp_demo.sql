@@ -1,5 +1,5 @@
 CREATE function getCompanyDetailsbyCustomerID (pid integer)
-    returns TABLE(name varchar(50),email varchar(50),phone varchar(10))
+    returns TABLE(name varchar(50),email varchar(50))
     language plpgsql
 as
 $$
